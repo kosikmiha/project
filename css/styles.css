@@ -1,0 +1,177 @@
+html,
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.header {
+    background: #e8665c;
+    height: 90px;
+    padding: 10px;
+}
+
+.header img {
+    height: 60px;
+    width: 250px;
+    margin-right: 500px;
+    float: left;
+    padding: 15px 0;
+}
+
+.header li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.box {
+    border: 7px solid #2b2b2b;
+    border-radius: 4px 4px;
+    background: #2b2b2b;
+}
+
+.header ul {
+    padding: 20px 0;
+    overflow: hidden;
+    float: right;
+}
+
+.header li {
+    display: inline;
+}
+
+.welcome {
+    color: #fff;
+    background: #e85350;
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main {
+    color: #fff;
+    background: #2b2b2b;
+    height: 320px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main p {
+    color: #e85350;
+}
+
+.main .icon {
+    margin: 0 390px;
+}
+
+.main .item  {
+    margin: 0 52px;
+    float: left;
+}
+
+.main .item p {
+    color: #e85350;
+}
+
+.contact {
+    color: #fff;
+    background: #1d334a;
+    height: 450px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h3 {
+    color: #e85350;
+}
+
+
+.contact .heroes {
+    border: 5px solid #fff;
+    border-radius: 4px 4px;
+    width: 150px;
+    height: 300px;
+    margin: 0 60px;
+    float: left;
+    background-color: #fff;
+}
+
+.contact .heroes p {
+    color: #e85350;
+}
+
+.contact .heroes h3 {
+    color: #1d334a;
+}
+
+.contact .heroes img {
+    width: 130px;
+    transition: width 0.5s;
+
+}
+
+.contact .heroes img:hover {
+    -webkit-filter: drop-shadow(6px 5px 5px #e85350);
+    filter: drop-shadow(6px 5px 5px #e85350);
+}
+
+.contact .heroes button {
+    height: 45px;
+    width: 140px;
+    background-color: #1d334a;
+    border: 5px solid #1d334a;
+    border-radius: 4px 4px;
+    color: #fff;
+}
+
+.contact .heroes button img {
+    height: 30px;
+    width: 100px;
+    all: initial;
+}
+
+.contact .heroes button img:hover {
+    height: 30px;
+    width: 100px;
+    all: initial;
+}
+
+.footer {
+    background: #2b2b2b;
+    height: 50px;
+    padding: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer ul {
+    overflow: hidden;
+    margin: 15px 0;
+    float: left;
+}
+
+.footer li {
+    display: inline;
+    color: #e85350;
+}
+
+.footer li:first-child {
+    color: #fff;
+}
+
+.footer li span {
+    color: #fff;
+}
+
+.footer .icon {
+    margin: 7px 20px;
+    float: right;
+}
